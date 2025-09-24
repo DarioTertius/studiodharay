@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio DharaY - Agende seu Momento</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="brand">
+            <a href="http://www.instagram.com/studio.dharay?igsh=b21hdTB3MmczN3Yw">
+            <img id="logo" src="Logo.png" alt="Logo Studio DharaY" />
+            </a>
+          </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Cuidado e Beleza para Suas Mãos e Pés</h1>
+        <p>Seu refúgio de bem-estar. Relaxe, renove-se e sinta-se incrível.</p>
+        <a href="#booking" class="btn">Agende Seu Momento</a>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Nossos Serviços</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Manicure Premium</h3>
+            <p>
+              Cutilagem perfeita, hidratação e uma vasta seleção de esmaltes
+              para um acabamento impecável.
+            </p>
+          </div>
+          <div class="service-card">
+            <h3>Spa dos Pés Completo</h3>
+            <p>
+              Uma experiência relaxante com esfoliação, hidratação profunda e
+              massagem para pés renovados.
+            </p>
+          </div>
+          <div class="service-card">
+            <h3>Sobrancelha</h3>
+            <p>
+              Dê aquele glow-up no seu olhar, deixando-o marcante e
+              inconfundível <br />Design e Henna.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">Nossa Missão</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto">
+          No Studio DharaY, acreditamos que o cuidado com sua beleza é um ato de
+          amor-próprio. Nosso atendimento foi pensado para oferecer uma
+          experiência única de conforto e relaxamento, utilizando apenas
+          produtos da mais alta qualidade e as melhores técnicas do mercado.
+          Venha conversar e ver qual o melhor dia para sua transformação!
+        </p>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 class="section-title">Galeria de Inspirações</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="unhaspintadas.jpeg" alt="Unhas pintadas" />
+          </div>
+          <div class="gallery-item">
+            <img src="spadospésfoto.jpeg" alt="Spa dos Pés" />
+          </div>
+          <div class="gallery-item">
+            <img src="spadospes2.jpeg" alt="Spa dos Pés" />
+          </div>
+          <div class="gallery-item">
+            <img src="fotodhara.jpeg" alt="Foto Dhara" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="section">
+      <div class="container">
+        <h2 class="section-title">Faça seu Agendamento</h2>
+        <form id="booking-form">
+          <input
+            type="text"
+            name="name"
+            placeholder="Seu Nome Completo"
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Seu WhatsApp (com DDD)"
+            required
+          />
+          <select name="service" required>
+            <option value="">-- Escolha um serviço --</option>
+            <option value="manicure">Manicure Premium</option>
+            <option value="spa_pes">Spa dos Pés Completo</option>
+            <option value="unhas_gel">Sombrancelha</option>
+          </select>
+          <input type="date" name="date" required />
+          <textarea
+            name="message"
+            rows="4"
+            placeholder="Alguma observação? Ex: Ocasião, cores preferidas..."
+          ></textarea>
+          <button type="submit" class="btn">Enviar Solicitação</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Studio DharaY.</p>
+        <p>Todos os direitos reservados</p>
+        <p>Criado por: dariomoreraneto@gmail.com</p>
+      </div>
+    </footer>
+
+    <!-- JS externo -->
+    <script src="script.js"></script>
+  </body>
+</html>
